@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "YourNamespace.Controllers.SensorDataController",
+    "Method": "PostSensorData",
+    "RelativePath": "api/sensor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "YourNamespace.Models.SensorData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourNamespace.Controllers.SensorDataController",
+    "Method": "GetSensorData",
+    "RelativePath": "api/sensor",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
