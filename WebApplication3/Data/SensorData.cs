@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace YourNamespace.Models
+namespace WebApplication3.Models
 {
     public class SensorData
     {

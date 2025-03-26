@@ -1,11 +1,11 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
 
-namespace YourNamespace.Models
+namespace WebApplication3.Models
 {
     public class RfidTag
     {
         public int Id { get; set; }
-        public string TagId { get; set; } = string.Empty; // 🔹 Inițializează cu string gol
-        public string Name { get; set; } = string.Empty;
+        public string TagId { get; set; } = string.Empty;
+        public DateTime Timestamp { get; set; } = DateTime.UtcNow;
     }
 }

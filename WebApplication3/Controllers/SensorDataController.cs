@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using YourNamespace.Data;
-using YourNamespace.Models;
+using WebApplication3.Data;
+using WebApplication3.Models;
 using System.Threading.Tasks;
 
-namespace YourNamespace.Controllers
+namespace WebApplication3.Controllers
 {
     [Route("api/sensor")]  // 🔹 Endpoint-ul API va fi la /api/sensor
     [ApiController]

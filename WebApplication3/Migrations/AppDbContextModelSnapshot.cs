@@ -3,7 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using YourNamespace.Data;
+using WebApplication3.Data;
 
 #nullable disable
 
@@ -17,7 +17,76 @@ namespace WebApplication3.Migrations
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "9.0.3");
 
-            modelBuilder.Entity("YourNamespace.Models.SensorData", b =>
+            modelBuilder.Entity("WebApplication3.Models.Citizen", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CNP")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Nume")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Prenume")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Citizens");
+                });
+
+            modelBuilder.Entity("WebApplication3.Models.Pubela", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Adresa")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("CetateanId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Tip")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CetateanId");
+
+                    b.ToTable("Pubele");
+                });
+
+            modelBuilder.Entity("WebApplication3.Models.RfidTag", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("TagId")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("RfidTags");
+                });
+
+            modelBuilder.Entity("WebApplication3.Models.SensorData", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -33,6 +102,22 @@ namespace WebApplication3.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("SensorReadings");
+                });
+
+            modelBuilder.Entity("WebApplication3.Models.Pubela", b =>
+                {
+                    b.HasOne("WebApplication3.Models.Citizen", "Cetatean")
+                        .WithMany("Pubele")
+                        .HasForeignKey("CetateanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cetatean");
+                });
+
+            modelBuilder.Entity("WebApplication3.Models.Citizen", b =>
+                {
+                    b.Navigation("Pubele");
                 });
 #pragma warning restore 612, 618
         }

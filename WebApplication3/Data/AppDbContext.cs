@@ -1,13 +1,16 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using YourNamespace.Models;  // Asigură-te că ai namespace-ul corect
+using WebApplication3.Models;
 
-namespace YourNamespace.Data
+namespace WebApplication3.Data
 {
     public class AppDbContext : DbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
-        public DbSet<SensorData> SensorReadings { get; set; }  // Datele primite de la senzori
-        public DbSet<RfidTag> RfidTags { get; set; }  // 🔹 Adaugă RfidTags aici
+        public DbSet<SensorData> SensorReadings { get; set; }
+        public DbSet<RfidTag> RfidTags { get; set; }
+        public DbSet<Citizen> Citizens { get; set; }
+        public DbSet<Pubela> Pubele { get; set; }
+
     }
 }

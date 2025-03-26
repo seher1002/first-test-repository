@@ -2,7 +2,119 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+@* <div class="text-center"> *@
+@*     <h1 class="display-4">Welcome</h1> *@
+@*     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p> *@
+@* </div> *@
+
+<h2>Sensor Data</h2>
+<table class="table table-bordered" id="sensorTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tag ID</th>
+            <th>Timestamp</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script>
+     console.log("Loaded JS");
+    fetch('/api/sensor')
+        .then(response => response.json())
+        .then(data => {
+            const tableBody = document.querySelector('#sensorTable tbody');
+            data.forEach(item => {
+                const row = `<tr>
+                                <td>${item.id}</td>
+                                <td>${item.tagId}</td>
+                                <td>${item.timestamp}</td>
+                             </tr>`;
+                tableBody.innerHTML += row;
+            });
+        })
+        .catch(error => console.error('Error fetching sensor data:', error));
+</script>
+
+
+<hr />
+<h2>Gestionare cetățeni</h2>
+
+<form id="citizenForm">
+    <input type="text" placeholder="Nume" id="nume" required />
+    <input type="text" placeholder="Prenume" id="prenume" required />
+    <input type="email" placeholder="Email" id="email" required />
+    <input type="text" placeholder="CNP" id="cnp" required />
+    <button type="submit">Adaugă</button>
+</form>
+
+<h3>Listă cetățeni</h3>
+<table id="citizenTable" class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Email</th>
+            <th>CNP</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+
+<script>
+    const form = document.getElementById("citizenForm");
+    const tableBody = document.querySelector("#citizenTable tbody");
+
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const citizen = {
+            nume: document.getElementById("nume").value,
+            prenume: document.getElementById("prenume").value,
+            email: document.getElementById("email").value,
+            cnp: document.getElementById("cnp").value,
+        };
+
+        fetch("/api/citizen", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(citizen)
+        })
+        .then(res => res.json())
+        .then(data => {
+            const row = `<tr>
+                            <td>${data.id}</td>
+                            <td>${data.nume}</td>
+                            <td>${data.prenume}</td>
+                            <td>${data.email}</td>
+                            <td>${data.cnp}</td>
+                         </tr>`;
+            tableBody.innerHTML += row;
+            form.reset();
+        });
+    });
+
+    window.onload = function () {
+        fetch("/api/citizen")
+            .then(res => res.json())
+            .then(data => {
+                data.forEach(citizen => {
+                    const row = `<tr>
+                                    <td>${citizen.id}</td>
+                                    <td>${citizen.nume}</td>
+                                    <td>${citizen.prenume}</td>
+                                    <td>${citizen.email}</td>
+                                    <td>${citizen.cnp}</td>
+                                 </tr>`;
+                    tableBody.innerHTML += row;
+                });
+            });
+    };
+</script>
+
+
