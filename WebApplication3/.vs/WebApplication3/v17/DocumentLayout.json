@@ -1,69 +1,69 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\diana\\source\\repos\\WebApplication3\\",
+  "WorkspaceRootPath": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\models\\pubele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\models\\pubele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\pubele.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\controllers\\pubelacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\controllers\\pubelacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\pubelacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\views\\pubela\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\views\\pubela\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\pubela\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\views\\pubela\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\views\\pubela\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\pubela\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\controllers\\sensordatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\controllers\\sensordatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\sensordatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\controllers\\citizencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\controllers\\citizencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\citizencontroler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\models\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\models\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\citizen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\migrations\\20250324090531_addtimestamptorfidtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\migrations\\20250324090531_addtimestamptorfidtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\migrations\\20250324090531_addtimestamptorfidtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\models\\rfidtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\models\\rfidtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\rfidtag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\data\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\data\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\data\\sensordata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\diana\\source\\repos\\webapplication3\\webapplication3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|c:\\users\\seher\\desktop\\anul4\\first-test-repository\\webapplication3\\webapplication3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7AC33094-97B1-4129-8E03-A1816777CCA7}|WebApplication3\\WebApplication3.csproj|solutionrelative:webapplication3\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -74,19 +74,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Pubela\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Views\\Pubela\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Pubela\\Index.cshtml",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Pubela\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Views\\Pubela\\Index.cshtml",
               "RelativeToolTip": "WebApplication3\\Views\\Pubela\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -96,9 +92,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Pubela\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Views\\Pubela\\Create.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Pubela\\Create.cshtml",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Pubela\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Views\\Pubela\\Create.cshtml",
               "RelativeToolTip": "WebApplication3\\Views\\Pubela\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -108,9 +104,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PubelaController.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\PubelaController.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Controllers\\PubelaController.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\PubelaController.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\PubelaController.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Controllers\\PubelaController.cs",
               "RelativeToolTip": "WebApplication3\\Controllers\\PubelaController.cs",
               "ViewState": "AgIAAFcAAAAAAAAAAAAmwIgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -120,11 +116,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Pubele.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Pubele.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Models\\Pubele.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\Pubele.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Pubele.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Models\\Pubele.cs",
               "RelativeToolTip": "WebApplication3\\Models\\Pubele.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T07:17:21.166Z",
               "EditorCaption": ""
@@ -133,9 +129,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "20250324090531_AddTimestampToRfidTag.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Migrations\\20250324090531_AddTimestampToRfidTag.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Migrations\\20250324090531_AddTimestampToRfidTag.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Migrations\\20250324090531_AddTimestampToRfidTag.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Migrations\\20250324090531_AddTimestampToRfidTag.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Migrations\\20250324090531_AddTimestampToRfidTag.cs",
               "RelativeToolTip": "WebApplication3\\Migrations\\20250324090531_AddTimestampToRfidTag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -145,9 +141,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "CitizenControler.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\CitizenControler.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Controllers\\CitizenControler.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\CitizenControler.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\CitizenControler.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Controllers\\CitizenControler.cs",
               "RelativeToolTip": "WebApplication3\\Controllers\\CitizenControler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -157,9 +153,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Citizen.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Citizen.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Models\\Citizen.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\Citizen.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Models\\Citizen.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Models\\Citizen.cs",
               "RelativeToolTip": "WebApplication3\\Models\\Citizen.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -169,9 +165,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication3\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "WebApplication3\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAEoAAAAAAAAAAAAUwHYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -181,9 +177,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Controllers\\HomeController.cs",
               "RelativeToolTip": "WebApplication3\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -193,9 +189,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "SensorDataController.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\SensorDataController.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Controllers\\SensorDataController.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Controllers\\SensorDataController.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Controllers\\SensorDataController.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Controllers\\SensorDataController.cs",
               "RelativeToolTip": "WebApplication3\\Controllers\\SensorDataController.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAYwAwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -205,9 +201,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "WebApplication3\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -217,9 +213,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "SensorData.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Data\\SensorData.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Data\\SensorData.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Data\\SensorData.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Data\\SensorData.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Data\\SensorData.cs",
               "RelativeToolTip": "WebApplication3\\Data\\SensorData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,9 +225,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "RfidTag.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Models\\RfidTag.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Models\\RfidTag.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Models\\RfidTag.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Models\\RfidTag.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Models\\RfidTag.cs",
               "RelativeToolTip": "WebApplication3\\Models\\RfidTag.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -241,9 +237,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Program.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Program.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Program.cs",
               "RelativeToolTip": "WebApplication3\\Program.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAkwE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -253,9 +249,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\appsettings.json",
               "RelativeDocumentMoniker": "WebApplication3\\appsettings.json",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\appsettings.json",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\appsettings.json",
               "RelativeToolTip": "WebApplication3\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -265,9 +261,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "WebApplication3\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Seher\\Desktop\\Anul4\\first-test-repository\\WebApplication3\\WebApplication3\\Data\\AppDbContext.cs",
               "RelativeToolTip": "WebApplication3\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

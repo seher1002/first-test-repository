@@ -1,0 +1,25 @@
+﻿@model List<WebApplication3.Models.LocationPoint>
+
+<h2>Traseu Colectare - 15.10.2024</h2>
+<div id="map" style="height: 600px;"></div>
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+<script>
+    var map = L.map('map').setView([@Model[0].Lat, @Model[0].Lng], 13);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+
+    var route = [
+    @foreach (var p in Model)
+    {
+        @: [@p.Lat, @p.Lng],
+    }
+    ];
+
+    route.forEach(p => {
+        L.marker(p).addTo(map);
+    });
+
+    L.polyline(route, {color: 'blue'}).addTo(map);
+</script>
