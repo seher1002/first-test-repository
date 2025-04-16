@@ -2,9 +2,11 @@
 using WebApplication3.Data;
 using WebApplication3.Models;
 using WebApplication3.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApplication3.Controllers
 {
+  //  [Authorize(Roles = "Admin")]
     [ApiController]
     [Route("api/[controller]")]
     public class CitizenController : ControllerBase
