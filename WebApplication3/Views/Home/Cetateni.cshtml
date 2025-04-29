@@ -1,0 +1,53 @@
+@model IEnumerable<WebApplication3.Models.Cetatean>
+
+@{
+    ViewData["Title"] = "Gestionare cetățeni";
+}
+
+<h2>Gestionare cetățeni</h2>
+
+<!-- Formular pentru adăugare cetățean -->
+<form asp-action="Cetateni" method="post" class="mb-4">
+    <div class="row">
+        <div class="col">
+            <input class="form-control" name="Nume" placeholder="Nume" required />
+        </div>
+        <div class="col">
+            <input class="form-control" name="Prenume" placeholder="Prenume" required />
+        </div>
+        <div class="col">
+            <input class="form-control" type="email" name="Email" placeholder="Email" required />
+        </div>
+        <div class="col">
+            <input class="form-control" name="CNP" placeholder="CNP" required />
+        </div>
+        <div class="col">
+            <button type="submit" class="btn btn-primary">Adaugă</button>
+        </div>
+    </div>
+</form>
+
+<!-- Tabel cu cetățeni -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nume</th>
+            <th>Prenume</th>
+            <th>Email</th>
+            <th>CNP</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Nume</td>
+                <td>@item.Prenume</td>
+                <td>@item.Email</td>
+                <td>@item.CNP</td>
+            </tr>
+        }
+    </tbody>
+</table>

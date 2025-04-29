@@ -25,7 +25,7 @@ namespace WebApplication3.Controllers
                 return BadRequest("Invalid data.");
 
             data.Timestamp = DateTime.UtcNow; // Setează automat timestamp-ul
-            _context.SensorReadings.Add(data);
+            _context.SensorData.Add(data);
             await _context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetSensorData), new { id = data.Id }, data);
@@ -35,7 +35,7 @@ namespace WebApplication3.Controllers
         [HttpGet]
         public async Task<IActionResult> GetSensorData()
         {
-            var data = await _context.SensorReadings.ToListAsync();
+            var data = await _context.SensorData.ToListAsync();
             return Ok(data);
         }
     }

@@ -1,0 +1,124 @@
+﻿
+
+
+ @model WebApplication3.Models.HartaViewModel
+
+@{
+    ViewData["Title"] = "Traseu Colectare";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div style="margin-bottom:20px;">
+    <p><strong>Distanța Traseu Inițial:</strong> @ViewBag.DistantaInitiala metri</p>
+    <p><strong>Distanța Traseu Optimizat:</strong> @ViewBag.DistantaOptimizata metri</p>
+    <p><strong>Diferența:</strong> @ViewBag.DiferentaDistantelor metri</p>
+</div>
+
+<!-- Checkbox-uri -->
+<div style="margin-bottom: 20px;">
+    <input type="checkbox" id="chkInitial" checked />
+    <label for="chkInitial">Traseu Neoptimizat</label>
+
+    <input type="checkbox" id="chkOptimizat" checked style="margin-left:20px;" />
+    <label for="chkOptimizat">Traseu Optimizat</label>
+</div>
+
+<!-- Stiluri Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+
+<style>
+    #map {
+        height: 700px;
+        width: 100%;
+    }
+</style>
+
+<!-- Hartă -->
+<div id="map"></div>
+
+@section Scripts {
+
+     
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.min.js"></script>
+
+    <script>
+        //initializam harta
+        var map = L.map('map').setView([45.791, 24.15], 13);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: 'Map data © OpenStreetMap contributors'
+        }).addTo(map);
+
+        //liste cu coordonatele initiale si optimizate
+        var puncteInitiale = @Html.Raw(Json.Serialize(Model.PuncteInitiale));
+        var puncteOptimizate = @Html.Raw(Json.Serialize(Model.PuncteOptimizate));
+
+        var rutaInitiala = null;
+        var rutaOptimizata = null;
+
+        //marcaje pe harta/ puncte traseu
+        puncteInitiale.forEach(function (punct, index) {
+            L.marker([punct.lat, punct.lng])
+                .addTo(map)
+                .bindPopup('Punct #' + (index + 1));
+        });
+
+        function updateTrasee() {
+            var chkInitial = document.getElementById('chkInitial').checked;
+            var chkOptimizat = document.getElementById('chkOptimizat').checked;
+
+            // Traseu inițial
+            if (chkInitial) {
+                if (!rutaInitiala) {
+                    rutaInitiala = L.Routing.control({
+                        waypoints: puncteInitiale.map(p => L.latLng(p.lat, p.lng)),
+                        lineOptions: {
+                            styles: [{ color: 'red', weight: 4 }]
+                        },
+                        addWaypoints: false,
+                        draggableWaypoints: false,
+                        fitSelectedRoutes: false,
+                        createMarker: function () { return null; }
+                    }).addTo(map);
+                }
+            } else {
+                if (rutaInitiala) {
+                    map.removeControl(rutaInitiala);
+                    rutaInitiala = null;
+                }
+            }
+
+            // Traseu optimizat
+            if (chkOptimizat) {
+                if (!rutaOptimizata) {
+                    rutaOptimizata = L.Routing.control({
+                        waypoints: puncteOptimizate.map(p => L.latLng(p.lat, p.lng)),
+                        lineOptions: {
+                            styles: [{ color: 'blue', weight: 4 }]
+                        },
+                        addWaypoints: false,
+                        draggableWaypoints: false,
+                        fitSelectedRoutes: false,
+                        createMarker: function () { return null; }
+                    }).addTo(map);
+                }
+            } else {
+                if (rutaOptimizata) {
+                    map.removeControl(rutaOptimizata);
+                    rutaOptimizata = null;
+                }
+            }
+        }
+
+        // Event listeners
+        document.getElementById('chkInitial').addEventListener('change', updateTrasee);
+        document.getElementById('chkOptimizat').addEventListener('change', updateTrasee);
+
+        // Afișăm rutele la pornire dacă sunt bifate
+        updateTrasee();
+    </script>
+}
+

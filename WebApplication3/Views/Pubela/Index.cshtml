@@ -1,4 +1,35 @@
-﻿@model IEnumerable<WebApplication3.Models.Pubela>
+﻿@* @model IEnumerable<WebApplication3.Models.Pubela> *@
+
+@* @{ *@
+@*     ViewData["Title"] = "Lista Pubele"; *@
+@* } *@
+
+@* <h1>Lista Pubele</h1> *@
+
+@* <table class="table"> *@
+@*     <thead> *@
+@*         <tr> *@
+@*             <th>Tip</th> *@
+@*             <th>Adresa</th> *@
+@*             <th>Cetățean</th> *@
+@*         </tr> *@
+@*     </thead> *@
+@*     <tbody> *@
+@*         @foreach (var item in Model) *@
+@*         { *@
+@*             <tr> *@
+@*                 <td>@item.Tip</td> *@
+@*                 <td>@item.Adresa</td> *@
+@*                 <td>@item.Cetatean?.Nume</td> *@
+@*             </tr> *@
+@*         } *@
+@*     </tbody> *@
+@* </table> *@
+
+@* <a class="btn btn-primary" asp-action="Create">Adaugă pubelă nouă</a> *@
+
+
+@model IEnumerable<WebApplication3.Models.Pubela>
 
 @{
     ViewData["Title"] = "Lista Pubele";
@@ -6,12 +37,13 @@
 
 <h1>Lista Pubele</h1>
 
+
 <table class="table">
     <thead>
         <tr>
             <th>Tip</th>
             <th>Adresa</th>
-            <th>Cetățean</th>
+            <th>Cetățean id</th>
         </tr>
     </thead>
     <tbody>
@@ -20,7 +52,7 @@
             <tr>
                 <td>@item.Tip</td>
                 <td>@item.Adresa</td>
-                <td>@item.Cetatean?.Nume</td>
+                <td>@item.CetateanId</td> <!-- <<< adăugat -->
             </tr>
         }
     </tbody>

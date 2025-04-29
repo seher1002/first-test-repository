@@ -1,0 +1,27 @@
+@model IEnumerable<WebApplication3.Models.SensorData>
+
+@{
+    ViewData["Title"] = "Date Senzori";
+}
+
+<h2>Date Senzori</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Tag ID</th>
+            <th>Timestamp</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.TagId</td>
+                <td>@item.Timestamp</td>
+            </tr>
+        }
+    </tbody>
+</table>

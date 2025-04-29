@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\data\\Traseu 3 - SB 99 ULB  (1).xlsx",
+      "PackagePath": "staticwebassets\\data\\Traseu 3 - SB 99 ULB  (1).xlsx"
+    },
+    {
       "Id": "C:\\Users\\diana\\source\\repos\\WebApplication3\\WebApplication3\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },

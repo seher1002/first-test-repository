@@ -18,6 +18,6 @@ namespace WebApplication3.Models
         [ForeignKey("Cetatean")]
         public int CetateanId { get; set; }
         [ValidateNever]
-        public Citizen Cetatean { get; set; }
+        public Cetatean Cetatean { get; set; }
     }
 }
